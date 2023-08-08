@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    /* display: flex;
+    align-items: flex-end;
+    justify-items: space-around; */
+    width: 100%;
+    background-color: #00425A ; /* #FC7300 , #1F8A70 , #00425A ,
+    #181823, #EFF5F5 */
+    padding: 1%;
+}
+
+.lista_nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    list-style-type: none;
+}
+
+.item_nav {
+    color: #eff5f5 ;
+}
+
+/* INICIO */
+.inicio {
+    height: 100vh;
+    background-image: url("./img/escolares.jpg");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* QUIENES SOMOS */
+.quienes_somos {
+    height: 100vh;
+}
+
+.img_parrafo_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* PORQUE ELEGIRNOS */
+.porque_elegirnos {
+    height: 100vh;
+
+}
+
+/* estilos propuesta educativa con CARDS */
+
+.cards {
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    background-color: #f2f2f2;
+    padding-bottom: 3em;
+    flex-basis: 280px;
+}
+
+.card-content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card-picture {
+    width: 90%;
+    margin: 0 auto;
+    background: cornflowerblue;
+    position: relative;
+    bottom: 2em;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-title {
+    margin-bottom: 1em;
+}
+
+/* CARRUSEL propuesta educativa
+.carrusel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+} */
+
+/* .carrusel div {
+    flex: 0 0 auto;
+    scroll-snap-align: start; 
+    Agrega otros estilos para las imágenes, como tamaño, márgenes, etc. según tus necesidades 
+  }*/
+
+
+  /* ÚLTIMAS NOTICIAS */
+  /* contenedor de tarjetas carrusel */
+  .cont_noticias {
+    border-style: solid;
+    border-width: 15px;
+    padding: 5px;
+    border-color: #00425A;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .tarj_noticias {
+    padding: 5px;
+  }
+
+
+  /* ESTILOS DE FOOTER */
+
+  /* estilo del contenedor footer */
+    .footer-conteiner {
+        background-color: #00425A;
+        color: #eff5f5;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0;
+  }
+  
+  /* estilo del div redes */
+  .footer-div-redes {
+      text-align: center;
+    }  
+        
+    /* estilo del div logo */
+  .footer-div-logo {
+    text-align: center;
+    }  
+  
+  /* estilo del div ctactos */
+  .footer-div-contactos {
+    text-align: center;
+    }  
+
+    /* estilo para listas redes y ctactos */
+
+    .lista-en-footer {
+        list-style-type: none;
+        padding: 0;
+      }
+
+    /* estilos para los li de footer */
+    .li-footer {
+        margin: 5px 0;
+    }
+
+    /* estilos para los a dentro de li */
+    .link_rrss {
+        text-decoration: none;
+        color: #eff5f5;
+    }
+    
