@@ -45,7 +45,7 @@ header {
 }
 
 .inicio h1 {
-    color: #eff5f5;
+    color: #00425a;
     font-size: 30px;
     background-color: #1F8A70;
     border-radius: 10px;
@@ -54,7 +54,7 @@ header {
 }
 
 .inicio h3 {
-    color: #fff;
+    color: #00425a;
     font-size: 20px;
     background-color: #1F8A70;
     border-radius: 10px;
@@ -65,22 +65,71 @@ header {
 
 /* QUIENES SOMOS */
 .quienes_somos {
-    height: 100vh;
+    /* height: 100vh; */
+    background-color: #00425A;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.quienes_somos h2 {
+    color: #eff5f5;
+    margin: 4px;
+    border-style: solid;
+    border-color: #1F8A70;
+    border-width: 2px 2px 0;
+    border-radius: 7px;
+    padding: 3px;
 }
 
 .img_parrafo_1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    color: #eff5f5;
+    margin: 4px;
+    border-style: solid;
+    border-color: #1F8A70;
+    border-width: 0px 2px 2px;
+    border-radius: 7px;
+    padding: 3px;
 }
 
 /* PORQUE ELEGIRNOS */
 .porque_elegirnos {
-    height: 100vh;
+    /* height: 100vh; */
+    background-color: #eff5f5;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.porque_elegirnos  h2 {
+    color: #00425a;
+    margin: 2px;
+    border-style: solid;
+    border-color: #fc7300;
+    border-width: 2px 2px 0;
+    border-radius: 7px;
+    padding: 3px;
 
 }
 
+.img_parrafo_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #00425A;
+    margin: 2px;
+    border-style: solid;
+    border-color: #fc7300;
+    border-width: 0px 2px 2px;
+    border-radius: 7px;
+    padding: 3px;
+}
+
 /* estilos propuesta educativa con CARDS */
+.propuesta_educativa {
+    background-color: #1F8A70;
+}
 
 .cards {
     width: 90%;
