@@ -131,6 +131,10 @@ header {
     background-color: #1F8A70;
 }
 
+.propuesta_educativa h2 {
+    padding: 7px;
+}
+
 .cards {
     width: 90%;
     margin: 0 auto;
@@ -188,6 +192,11 @@ header {
 
   /* ÚLTIMAS NOTICIAS */
   /* contenedor de tarjetas carrusel */
+
+  .ultimas_noticias h2 {
+    padding: 7px;
+  }
+
   .cont_noticias {
     border-style: solid;
     border-width: 15px;
