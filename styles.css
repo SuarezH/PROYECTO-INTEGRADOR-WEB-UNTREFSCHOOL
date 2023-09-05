@@ -50,7 +50,7 @@ a:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
 }
 
@@ -121,7 +121,40 @@ a:hover {
     border-radius: 10px;
 }
 
+.img_parrafo_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #00425A;
+    margin: 2px;
+    border-style: solid;
+    border-color: #fc7300;
+    border-width: 0px 2px 2px;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.img_parrafo_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #00425A;
+    margin: 2px;
+    border-style: solid;
+    border-color: #fc7300;
+    border-width: 0px 2px 2px;
+    border-radius: 7px;
+    padding: 3px;
+}
+
 /* estilos propuesta educativa con CARDS */
+.propuesta_educativa {
+    background-color: #1F8A70;
+}
+
+.propuesta_educativa h2 {
+    padding: 7px;
+}
 
 .propuesta_educativa {
     background-color: #fc7300;
@@ -202,6 +235,11 @@ a:hover {
 
 
   /* contenedor de tarjetas carrusel */
+
+  .ultimas_noticias h2 {
+    padding: 7px;
+  }
+
   .cont_noticias {
     border-style: solid;
     border-width: 15px;
