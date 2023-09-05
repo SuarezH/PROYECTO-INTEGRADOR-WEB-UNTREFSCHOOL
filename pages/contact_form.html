@@ -8,13 +8,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <title>Formulario de contacto</title>
+    <!-- Google Fonts -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"> -->
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <!-- You should properly set the path from the main file. -->
     <link rel="stylesheet" href="./contac_form_styles.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <ul class="lista_nav">
-                <li><img src="../img/escolares.jpg" alt="Logo UNtrefSchool" width="25px" height="25px"></li>
+                <li><img src="../img/untreflogo.png" alt="Logo UNtrefSchool" width="25px" height="25px"></li>
                 <a class="item_nav" href="../index.html">Inicio</a>
                 <a class="item_nav" href="../index.html#quienes_somos">Quienes somos?</a>
                 <a class="item_nav" href="../index.html#por_que_elegirnos">Por qué elegirnos?</a>
@@ -29,22 +39,29 @@
         <section class="central_section">
             <div class="encabezado">
                 <h2>Contáctenos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nulla blanditiis optio facere voluptate officia aliquid vero quidem, laboriosam eaque voluptatum necessitatibus soluta minima ipsum distinctio sint eveniet dolore nobis.</p>
+                <p>Por favor ingrese sus datos y consultas para que podamos ponernos en contacto y resolver todas sus dudas. Para nosotros es un enriquecimiento interactuar con ustedes. No dude en contactarnos!</p>
             </div>
             
             <div class="form">
-                <p>soy form</p>
-                <form class="formulario" action="" method="post">
+                <form class="formulario" action="https://formsubmit.co/suarezgimenezhoracio@gmail.com" method="post">
                     <!-- Nombre -->
-                    <input type="text">
+                    <label for="nombre">Nombres</label>
+                    <input type="text" name="nombre" required>
                     <!-- Apellido -->
-                    <input type="text">
+                    <label for="apellido">Apellidos</label>
+                    <input type="text" name="apellido" required>
                     <!-- Correo -->
-                    <input type="email">
+                    <label for="correo">Direccion de correo electrónico</label>
+                    <input type="email" name="correo" required>
                     <!-- Fecha -->
-                    <input type="date">
+                    <label for="fecha">Fecha de consulta</label>
+                    <input id="fecha" type="date" name="fecha">
                     <!-- Consulta -->
-                    <input type="text">
+                    <label for="caja">Con que podemos ayudarle?</label>
+                    <textarea name="consulta" id="" cols="30" rows="10" required></textarea>
+                    <!-- <input id="caja" type="text" name="caja" maxlength="250"> -->
+                    <input id="boton" type="submit" value="ENVIAR CONSULTA">
+                    <input id="limpiar" type="reset" value="Limpiar formulario">
                 </form>
             </div>
             
