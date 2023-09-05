@@ -14,41 +14,42 @@
     <header>
         <nav class="navbar">
             <ul class="lista_nav">
-                <li><img src="./img/escolares.jpg" alt="Logo UNtrefSchool" width="25px" height="25px"></li>
-                <li class="item_nav">Inicio</li>
-                <li class="item_nav">Quienes somos?</li>
-                <li class="item_nav">Porque Elegirnos</li>
-                <li class="item_nav">Propuesta educativa</li>
-                <li class="item_nav">Ultimas Noticias</li>
-                <li class="item_nav">Contactanos</li>
+                <li><img src="./img/untreflogo.png" alt="Logo UNtrefSchool" width="35px" height="35px"></li>
+                <a class="item_nav" href="#inicio">Inicio</a>
+                <a class="item_nav" href="#quienes_somos">Quienes somos?</a>
+                <a class="item_nav" href="#por_que_elegirnos">Por qué elegirnos?</a>
+                <a class="item_nav" href="#propuesta_educativa">Propuesta educativa</a>
+                <a class="item_nav" href="#ultimas_noticias">Últimas noticias</a>
+                <a class="item_nav" href="./pages/contact_form.html">Contactenos</a>
             </ul>
         </nav>
-
     </header>
+
     <main>
-        <section class="inicio">
+        <section id="inicio" class="inicio">
             <h1>UntrefSchool</h1>
             <h3>Universidad Nacional de Tres de Febrero</h3>
         </section>
 
         <section class="quienes_somos">
-            <h2>¿Quienes somos?</h2>
-            <div class="img_parrafo_1"><!-- agregar display flex -->
+            <h2 id="quienes_somos">¿Quienes somos?</h2>
+            <div class="img_parrafo_1">
                 <img src="./img/escolares.jpg" alt="" width="200px" height="200px">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae doloremque dicta, accusantium ipsum perspiciatis aliquam.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae optio animi aliquam eligendi earum. Ipsum blanditiis modi nobis doloremque, nesciunt voluptatum provident illo voluptatem reprehenderit nam delectus iusto? Enim soluta exercitationem quae quod ipsum cumque fugit quisquam iste. Doloribus dolore esse natus ducimus accusamus aliquam tenetur quis. Et deserunt exercitationem magnam non quis nemo consectetur natus aperiam a, necessitatibus vero!</p>
             </div>
         </section>
 
-        <section class="porque_elegirnos">
-            <h2>¿Porqué elegirnos?</h2>
-            <div class="img_parrafo_1"><!-- agregar display flex -->
-                <img src="./img/" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae doloremque dicta, accusantium ipsum perspiciatis aliquam.</p>
+        <section class="por_que_elegirnos">
+            <h2 id="por_que_elegirnos">¿Porqué elegirnos?</h2>
+            <div class="img_parrafo_1">
+                <img src="./img/aula2.jpg" alt="" width="200px" height="200px">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo, qui veritatis quibusdam reiciendis at rerum magni vitae asperiores enim. Assumenda voluptas accusamus esse ad, magni eius vitae laborum, eligendi ea voluptatum nihil. Vel exercitationem, laborum minus obcaecati commodi maxime voluptatum quis dolorem quos id voluptates deserunt optio! Architecto cumque perferendis reprehenderit obcaecati unde culpa quibusdam vel eaque excepturi minima.
+                </p>
             </div>
         </section>
 
         <section class="propuesta_educativa">
-            <h2>Propuesta educativa</h2>
+            <h2 id="propuesta_educativa">Propuesta educativa</h2>
             <div class="cards">
                 <article class="card-item">
                     <div class="card-content">
@@ -89,15 +90,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
                 <!-- <div class="carrusel">
                     <div class="tarjeta">
                         <img src="./img/escolares.jpg" alt="" width="200px" height="200px">
@@ -119,8 +111,10 @@
             </div>
         </section>
 
+
+
         <section class="ultimas_noticias">
-            <h2>Ultimas noticias</h2>
+            <h2 id="ultimas_noticias">Ultimas noticias</h2>
             <div class="cont_noticias">
                 <div class="tarj_noticias">
                     <img src="./img/aula2.jpg" alt="" width="200px" height="200px">
@@ -150,22 +144,32 @@
         <div class="footer-div-redes">
             <h4>Redes</h4>
             <ul class="lista-en-footer">
-                <li class="li-footer"><a href="" class="link_rrss">imagenig</a></li>
-                <li class="li-footer"><a href="" class="link_rrss">imagenli</a></li>
-                <li class="li-footer"><a href="" class="link_rrss">facebook</a></li>
+                <li class="li-footer"></li><a class="link_rrss" href="https://www.instagram.com/">
+                    <img src="./img/ig_logo.webp" alt="Logo de instagram" width="40" height="40">
+                </a></li>
+                <li class="li-footer"></li><a class="link_rrss" href="https://www.linkedin.com/">
+                    <img src="./img/linkedin_logo.png" alt="Logo de linkedin" width="25" height="25">
+                </a></li>
+                <li class="li-footer"></li><a class="link_rrss" href="https://www.facebook.com/">
+                    <img src="./img/face.png" alt="Logo de facebook" width="25" height="25">
+                </a></li>                
             </ul>
         </div>
         <div class="footer-div-logo">
             <h4>Untref</h4>
             <h4>School</h4>
-            <img src="" alt="">
+            <a href="#inicio">
+            <img src="./img/untreflogo.png" alt="Logo de untref con fondo azul" width="50" height="50">
+            </a>
         </div>
         <div class="footer-div-contactos">
             <h4>Contactos</h4>
             <ul class="lista-en-footer">
-                <li class="li-footer">Tel:203151</li>
-                <li class="li-footer"><a href="" class="link_rrss">contacto@untref.com</a></li>
-                <li class="li-footer">WApp:321546321 </li>
+                <li class="li-footer">Tel:011 15422072</li>
+                <li class="li-footer"><a href="mailto:contacto@untref.com" class="link_rrss">contacto@untref.com</a></li>
+                <a class="li-footer" href="https://wa.me/5411422072?text=Hola ameo" target="_blank">
+                    <img src="./img/wa.png" width="20" height="20">
+                </a>
             </ul>
         </div>
 

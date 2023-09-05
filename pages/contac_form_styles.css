@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    /* display: flex;
+    align-items: flex-end;
+    justify-items: space-around; */
+    width: 100%;
+    background-color: #00425A ; /* #FC7300 , #1F8A70 , #00425A ,
+    #181823, #EFF5F5 */
+    padding: 1%;
+}
+
+.lista_nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    list-style-type: none;
+}
+
+/* .item_nav {
+    color: #eff5f5 ;
+
+} */
+
+a {
+    color: #eff5f5; /* Cambia el color a tu elección */
+    text-decoration: none; /* Elimina la subraya por defecto */
+}
+
+/* Cambiar el color del enlace cuando se coloca el mouse sobre él */
+a:hover {
+    color: #fc7300; /* Cambia el color a tu elección */
+}
+
+
+/* ESTILOS MAIN */
+
+.central_section {
+    padding-top: 60px;
+    height: 100vh;
+    background-color: #00425A;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.encabezado {
+    margin: 5px;
+    /* border-style: solid;
+    border-color: #fc7300; */
+    border-width: 3px;
+    /* height: 30%; */
+}
+
+.form {
+    margin: 5px;
+    /* border-style: solid;
+    border-color: #fc7300; */
+    border-width: 3px;
+}
+
+.formulario input{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ESTILOS DE FOOTER */
+
+  /* estilo del contenedor footer */
+    .footer-conteiner {
+        background-color: #00425A;
+        color: #eff5f5;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0;
+  }
+  
+  /* estilo del div redes */
+  .footer-div-redes {
+      text-align: center;
+    }  
+        
+    /* estilo del div logo */
+  .footer-div-logo {
+    text-align: center;
+    }  
+  
+  /* estilo del div ctactos */
+  .footer-div-contactos {
+    text-align: center;
+    }  
+
+    /* estilo para listas redes y ctactos */
+
+    .lista-en-footer {
+        list-style-type: none;
+        padding: 0;
+      }
+
+    /* estilos para los li de footer */
+    .li-footer {
+        margin: 5px 0;
+    }
+
+    /* estilos para los a dentro de li */
+    .link_rrss {
+        text-decoration: none;
+        color: #eff5f5;
+    }
+    
